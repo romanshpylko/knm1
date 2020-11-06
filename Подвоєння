@@ -1,0 +1,8 @@
+while True:
+ d = input("Введіть текст: ")
+ for F in d:
+    F = F * 2
+    if F == '  ':
+        F = F.replace("  ", " ")
+    print(F, end="")
+ print(" ")
